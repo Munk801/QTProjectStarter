@@ -1,0 +1,9 @@
+<?xml version='1.0'?>
+<data version="1.0" type="External">
+    <icon>img/icon.png</icon>
+    <wiki>PreviewCheck</wiki>
+    <src>main.pyw</src>
+    <toolTip/>
+    <displayName>Preview Check</displayName>
+    <category>Production_Tools</category>
+</data>

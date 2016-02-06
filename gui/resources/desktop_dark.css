@@ -1,0 +1,106 @@
+
+/*******************
+ * Global
+ * ****************/
+QWidget {
+	background-color: rgb(46, 38, 51);
+}
+
+QGroupBox::title
+{
+	color: rgb(1, 181, 227);
+}
+
+#header
+{
+	border: 1px solid white;
+	border-radius: 4px;
+	/* border-color: rgb(78, 205, 196); */
+}
+
+
+/*******************
+ * Header
+ *******************/
+
+#body {
+	border-radius: 6px;
+ 	background-color: rgb(85, 81, 82);
+}
+
+#body QGroupBox {
+ 	font-size: 16px;
+	font-family: "Source Sans Pro";
+	color: white;
+}
+
+#body QGroupBox::title {
+	subcontrol-origin: margin;
+	subcontrol-position: top center;
+	color: white;
+}
+
+#body QLineEdit {
+	font-size: 22pt;
+	font-family: "Source Sans Pro";
+	font-weight: 200;
+	color: white;
+}
+
+#body QListView {
+	font-size: 20pt;
+ 	font-family: "Source Sans Pro";
+}
+
+
+#body QToolButton
+{
+	border: 2px solid gray;
+    background-color: transparent;
+    font-size: 25pt;
+	font-family: "Source Sans Pro";
+	font-weight: 200;
+	color: white;
+    padding: 15px 0px 10px 0px;
+    border-bottom: 2px solid rgb(195, 195, 195);
+}
+
+#body QToolButton:checked
+{
+	background-color: rgb(1, 181, 227);
+}
+
+#ShotGroupFrame {
+	border: 0px;
+}
+
+#ShotGroupFrame QLineEdit {
+	font-size: 20pt;
+	font-family: "Source Sans Pro";
+	color: white;
+
+}
+
+#ShotsFrame {
+	border: 0px;
+	border-radius: 6px;
+}
+
+#ShotsFrame QListView {
+	border: 0px;
+	border-radius: 4px;
+	background-color: rgb(85, 81, 82);
+	font-size: 12pt;
+	font-family: "Source Sans Pro";
+	color: white;
+}
+
+#ShotsFrame QListView::item:selected {
+	border: 1px;
+	color: rgb(46, 38, 51);
+}
+
+
+#stack QToolButton {
+	border: 0px;
+}
